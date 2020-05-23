@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'montserrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search_box {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 1px solid #f0f0f0;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 10px;
+    height: 44px;
+    font-size: 15px;
+    box-shadow: none;
+  }
+
+  .search_box_input {
+    flex: 1;
+    display: flex;
+    padding: 5px 4px 0 16px;
+    padding-left: 14px;
+  }
+
+  .search_box_input_box {
+    flex: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: inherit;
+    font-size: 16px;
+  }
+
+  .search_button {
+    flex: 0 0 auto;
+    padding-right: 13px;
+  }
+
+  header input:hover{
+      box-shadow:  0 1px 6px 0 rgba(32,33,36,0.28);
+  }
+  
+  .main {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+  }
+
+  .city_title {
+    font-size: x-large!important;
+  }
+
+  .date {
+    font-size: medium!important;
+  }
+
+  .weather {
+    font-size: medium!important;
+  }
+
+  .temperature_details {
+    padding: 10px;
+  }
+
+  .temperature_image {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+  }
+
+  .temperature_main {
+    float: left;
+    display: flex;
+  }
+
+  .temperature {
+    font-size: 64px;
+    color: #212121!important;
+  }
+
+  .temperature_unit{
+    font-size: 16px;
+    color: #212121!important;
+  }
+
+  .weather_main {
+    float: right;
+    padding: 10px;
+  }
+
+  .weather_buttons {
+    padding-top: 10px;
+    display: flex;
+  }
+
+  .weather_radio_button {
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .weather_widget {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+  }
+
+  .weather_widget_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+  }
