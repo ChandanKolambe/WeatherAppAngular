@@ -8,3 +8,8 @@ Download Project, Unzip it and open in IDE.
 Run `npm install`.
 Run `ng serve` for a dev server.
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Checkout Live
+
+https://weatherappck.web.app/
+https://weatherappck.firebaseapp.com/
